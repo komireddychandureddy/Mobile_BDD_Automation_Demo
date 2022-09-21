@@ -1,6 +1,6 @@
-Feature: Orwell sample test
+Feature: Sample test
   #@MobileTest
-  Scenario Outline: Orwell sample test end to end scenario
+  Scenario Outline:  Sample test end to end scenario
   Given I launched the application and click on login button
   And I enter "Emailid" and click on next
   And I also enter "password" and click on next
@@ -19,7 +19,7 @@ Feature: Orwell sample test
   |abcc@gmail.com|samplepasswrd|mem          |USD     |421   |salary    |Employed  |saving    |Yes     |
   
   @MobileTest
-  Scenario: Orwell sample test
+  Scenario: Sample test
   Given I launched the application
   And I click on login Button.
   Then I should be able to see textfiled emailid
